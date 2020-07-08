@@ -124,7 +124,7 @@ class CFGEmulated(ForwardAnalysis, CFGBase):    # pylint: disable=abstract-metho
     This class represents a control-flow graph.
     """
 
-    print("Test BroOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOo")
+    print("Hahahahahahahahahahahahahahahahahahahahahaha")
 
     tag = "CFGEmulated"
 
