@@ -114,6 +114,12 @@ class CFGJobBase(object):
     def __init__(self, addr, state, context_sensitivity_level, block_id=None, src_block_id=None,
                  src_exit_stmt_idx=None, src_ins_addr=None, jumpkind=None, call_stack=None, is_narrowing=False,
                  skip=False, final_return_address=None):
+
+        print("Debug in job base:")
+        print(hex(addr))
+        print(state)
+        print(final_return_address)
+
         self.addr = addr  # Note that addr may not always be equal to self.state.ip (for syscalls, for example)
         self.state = state
         self.jumpkind = jumpkind

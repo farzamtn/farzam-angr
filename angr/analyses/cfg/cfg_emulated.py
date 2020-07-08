@@ -36,6 +36,10 @@ class CFGJob(CFGJobBase):
     def __init__(self, *args, **kwargs):
         super(CFGJob, self).__init__(*args, **kwargs)
 
+        print("Test in cfg_emulated")
+        print(args)
+        print(kwargs)
+
         #
         # local variables used during analysis
         #
